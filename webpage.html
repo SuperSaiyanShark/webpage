@@ -1,49 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-    <style>table, th, td {
-  border: 1px solid black;
-}</style>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <title>HTML 5 Boilerplate</title>
+ <title>Personal Online CV</title>
  <link rel="stylesheet" href="style.css">
  </head>
  <body>
 
 <main>
     <h1>
-        <header><strong>Hello! Welcome to my webpage.</strong></header>
+        <header><strong>Loniel Jude D. Rana Jr.</strong></header>
         <img src = "profile.jpg" alt = "Profile Photo">
     </h1>
-    <h3>
-        <p>My name is Loniel Jude D. Rana Jr. I'm a 2nd year in USTP taking BSIT.</p>
-    </h3>
-    
+    <p>IT Student | Web Systems and Technologies </p>
 </main>
 
+<section>
+    <h2>About Me</h2>
+        <p>My name is Loniel Jude D. Rana Jr. I'm a 2nd year in USTP taking BSIT.</p>
+</section>
 
 
 <nav>
-    <p>Email:</p> 
+    <p>Email:
     <a href="lonielrana@gmail.com">lonielrana@gmail.com</a>
-    <p>Github:</p> 
+    <p>Github:
     <a href="https://github.com/SuperSaiyanShark">SuperSaiyanShark</a>
+    </p>
 </nav>
 
 <section>
     <h2>Skills</h2>
         <ul>
-            <li>Drawing</li>
-            <li>Writing</li>
-            <li>Coding</li>
+            <li>Web Development</li>
+            <ul>
+                <li>Frontend</li>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <li>Backend</li>
+            </ul>
+
         </ul>
 </section>  
 
 
 <section>
     <h2>Education</h2>
+    <style>
+        table, th, td {border-collapse: collapse; border-width: 300px; border: 1px solid black; padding: 8px;text-align: center;} 
+    </style>
     <table>
         <tr>
             <th>Program</th>
@@ -51,14 +61,24 @@
             <th>Year Graduated</th>
         </tr>
         <tr>
-            <td>High School</td>
-            <td>Corpus Christi School</td>
-            <td>2022</td>
+            <td>College</td>
+            <td>USTP CDO</td>
+            <td>2028</td>
         </tr>
         <tr>
             <td>Senior High School</td>
             <td>USTP CDO</td>
             <td>2024</td>
+        </tr>
+        <tr>
+            <td>High School</td>
+            <td>Corpus Christi School</td>
+            <td>2022</td>
+        </tr>
+        <tr>
+            <td>Grade School</td>
+            <td>Corpus Christi School</td>
+            <td>2018</td>
         </tr>
     </table>
 </section>
@@ -73,6 +93,7 @@
     </form>
 </section>
 
+<footer><p>&copy; 2026 Loniel Jude D. Rana Jr.. All rights reserved. </p></footer>
 
 <script src="index.js"></script>
  </body>
