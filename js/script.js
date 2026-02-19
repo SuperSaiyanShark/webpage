@@ -8,7 +8,15 @@ const bgthemeToggle = document.getElementById("themeToggle");
 themeToggle.addEventListener("click",function(){
 
     document.body.classList.toggle("dark-mode-bg");
+
+    if (document.body.classList.contains("dark-mode-bg")){
+        themeToggle.textContent = "Toggle Light Mode";
+    }else{
+        themeToggle.textContent = "Toggle Dark Mode";
+    }
 });
+
+function toggleText(){}
 
 const toggleSkills = document.getElementById("toggleSkills");
 const skillsSection = document.getElementById("skillsSection");
