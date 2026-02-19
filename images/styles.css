@@ -15,7 +15,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    color:white;
+    color:rgb(0, 0, 0);
         }
 
 .card {
@@ -45,10 +45,10 @@ ul {
 
 a {
     text-decoration: none;
-    color: #93d2ff;
+    color: #2f3db3;
     }
 a:hover {
-    color: #005fa3;
+    color: #0004f5;
     }
 table {
     width: 100%;
@@ -92,3 +92,29 @@ form {
 footer{
     color:#ffffff
     }
+.dark-mode-bg{
+    background-color: #222;
+    background-image: radial-gradient(rgb(22, 37, 46) 5%, rgb(13, 33, 39) 15%, rgb(5, 26, 32) 60%);
+    color:white;
+
+    .card{
+        background-color:black;
+        background-image: linear-gradient(rgb(56, 93, 114), rgb(15, 75, 94));
+        color:white
+    }
+    a {
+        text-decoration: none;
+        color: #6babff;
+        }
+    a:hover {
+        color: #5254ff;
+        }
+}
+.dark-mode-cards{
+    background-color: #424242;
+    background-image: linear-gradient(rgb(56, 93, 114), rgb(15, 75, 94));
+    color:white
+}
+.hidden{
+    display:none;
+}
