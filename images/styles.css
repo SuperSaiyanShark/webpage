@@ -97,7 +97,25 @@ footer{
     background-image: radial-gradient(rgb(22, 37, 46) 5%, rgb(13, 33, 39) 15%, rgb(5, 26, 32) 60%);
     color:white;
  
-
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 8px;
+                }
+        th {
+            background-color: #0077cc;
+            background-image: linear-gradient(to right, rgb(72, 100, 119), rgb(28, 96, 128));
+            color: white;
+                }
+        td {
+            background-color: #8bb8d8;
+            background-image: linear-gradient(to right, rgb(46, 64, 77), rgb(19, 65, 87));
+            color: white;
+                }
     .card{
         background-color:black;
         background-image: linear-gradient(rgb(56, 93, 114), rgb(15, 75, 94));

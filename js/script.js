@@ -2,7 +2,6 @@ console.log("js/script.js")
 
 const submitBtn = document.getElementById("submitBtn");
 
-
 const bgthemeToggle = document.getElementById("themeToggle");
 
 
