@@ -1,12 +1,14 @@
+import Card from "./Card";
+
+
 function Header() {
     return (
-    <section className = "card">
+    <Card title = "Loniel Jude D. Rana Jr.">
         <h1>
-            <header><strong>Loniel Jude D. Rana Jr.</strong></header>
-            <img src = "src/profile.jpg" alt = "Profile Photo"></img>
+            <img src = "/images/profile.jpg" alt = "Profile Photo"></img>
         </h1>
         <p>IT Student | Web Systems and Technologies </p>
-    </section>
+    </Card>
     );
     }
     export default Header;
