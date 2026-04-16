@@ -3,6 +3,7 @@ import About from "./components/About"
 import Skills from "./components/Skills"
 import Education from "./components/Education"
 import Contact from "./components/Contact"
+import ContactList from "./components/ContactList"
 import { useState } from "react";
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
   <Skills skills = {skills}/>
   <Education education = {education}/>
   <Contact />
+  <ContactList />
   </div>
 
   </>
